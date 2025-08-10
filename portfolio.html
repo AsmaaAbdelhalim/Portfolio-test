@@ -12,7 +12,7 @@
        THEME TOKENS
        ------------------------------ */
     :root{
-      --bg:#0f1724;
+      --bg:#29292a;
       --card:#0b1220;
       --text:#e6eef6;
       --muted:#9aa4b2;
@@ -114,8 +114,8 @@
     .nav-link {
             font-size: 1.2rem;
           }
-          .navbar-brand {
-            font-size: 1.5rem;
+          .nav-link:hover{
+            color: var(--accent);
           }
 
   .mb-1{
@@ -198,6 +198,18 @@
       <span class="muted small">Based in Cairo — Available worldwide</span>
     </div>
     <div class="row g-4 align-items-stretch">
+      <div class="col-lg-5">
+        <div class="card p-4 shadow-sm h-100">
+          <h5 class="mb-1"></h5>
+          <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=1200&auto=format" alt="project" class="img-fluid rounded mb-3">
+          <p class="muted small">A calm, modern apartment redesign focusing on light-toned woods, hidden storage, and layered lighting. Delivered concept → render → site supervision.</p>
+          <div class="d-flex gap-2 mt-3">
+            <a class="btn btn-sm btn-light" href="#projects">View more</a>
+            <a class="btn btn-sm btn-outline-accent" href="#contact">Hire me</a>
+          </div>
+        </div>
+      </div>
+      
       <div class="col-lg-7">
         <div class="card p-4 h-100">
           <h5 class="mb-1">About me</h5>
@@ -208,18 +220,12 @@
           <p class="muted small">Residential & commercial spaces, styling, and staging.</p>
           <p class="mb-1"><strong>Design Consultant</strong> — Studio</p>
           <p class="muted small">Material specs, layout optimization, and site coordination.</p>
-        </div>
-      </div>
-      <div class="col-lg-5">
-        <!-- Featured Project -->
-        <div class="card p-4 shadow-sm h-100">
-          <h5 class="mb-3">Featured Project</h5>
-          <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=1200&auto=format" alt="project" class="img-fluid rounded mb-3">
-          <p class="muted small">A calm, modern apartment redesign focusing on light-toned woods, hidden storage, and layered lighting. Delivered concept → render → site supervision.</p>
-          <div class="d-flex gap-2 mt-3">
-            <a class="btn btn-sm btn-light" href="#projects">View more</a>
-            <a class="btn btn-sm btn-outline-accent" href="#contact">Hire me</a>
-          </div>
+          <hr class="my-4" />
+          <h6 class="mb-2">Education</h6>
+          <p class="mb-1"><strong>Bachelor of Science in Interior Design</strong> — Cairo University</p>
+          <p class="muted small">2018-2022</p>
+          <p class="mb-1"><strong>Master of Science in Interior Design</strong> — Cairo University</p>
+          <p class="muted small">2022-2024</p>
         </div>
       </div>
     </div>
@@ -353,8 +359,8 @@
       <h4 class="fw-bold">Contact</h4>
       <div class="muted small">Available for freelance & full-time</div>
     </div>
-    <div class="row g-4">
-      <div class="col-lg-5">
+    <div class="row g-4" style="display: flex; justify-content: center; align-items: center;">
+      <div class="col-lg-7">
         <div class="card p-4 h-100">
           <h6 class="mb-1">Contact info</h6>
           <ul class="list-unstyled mb-0">
@@ -371,7 +377,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div><!--
       <div class="col-lg-7">
         <div class="card p-4">
           <h6 class="mb-3">Send a message</h6>
@@ -387,7 +393,7 @@
             </div>
           </form>
         </div>
-      </div>
+      </div>-->
     </div>
   </section>
 </main>
